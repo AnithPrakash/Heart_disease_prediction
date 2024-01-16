@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 model="model.sav"
-model1=pickle.loads(open(model,'rb'))
+model1=pickle.load(open(model,'rb'))
 
 st.title("Heart Disease Prediction")
 
