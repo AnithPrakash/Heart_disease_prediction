@@ -53,7 +53,7 @@ if st.button('Result'):
     if predictive[0]==0:
         heart_diagnosis="your safe you dont have hearts disease"
     else:
-        heart_diagnosis="your done mahn, you have it "
+        heart_diagnosis="your done mahn, you heart disease better consult a doctor "
 st.success(heart_diagnosis)
 
 
