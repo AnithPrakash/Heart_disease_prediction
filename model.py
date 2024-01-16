@@ -35,10 +35,10 @@ with col3:
     exang=st.text_input("Enter your Exercise Induced Angina")
 
 with col1:
-    oldpeak=st.text_input("ST depression induced by exercise /n ")
+    oldpeak=st.text_input("ST depression induced by exercise \n ")
 
 with col2:
-    slope=st.text_input("Enter your Slope of the peak exercise /n ( 0 / 1 / 2)")
+    slope=st.text_input("Enter your Slope of the peak exercise  ( 0 / 1 / 2)")
 
 with col3:
     cs=st.text_input("Enter your Major vessels colored by flourosopy (0 / 1 / 2)")
