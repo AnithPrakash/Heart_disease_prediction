@@ -44,7 +44,8 @@ with col3:
     cs=st.text_input("Enter your Major vessels colored by flourosopy (0 / 1 / 2)")
 
 with col2:
-    thal=st.text_input("Enter your Thal ( 0 = normal \n 1 = fixed defect | 2 = reversable defect)")
+    thal=st.text_input("Enter your Thal ( 0 = normal \n 
+    1 = fixed defect | 2 = reversable defect)")
 
 heart_diagnosis=''
 if st.button('Result'):
