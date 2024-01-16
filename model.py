@@ -51,9 +51,9 @@ if st.button('Result'):
     predictive=model1.predict(
         [[age,sex,cp,tresrbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,cs,thal]])
     if predictive[0]==0:
-        print("your safe you dont have hearts disease")
+        dp="your safe you dont have hearts disease"
     else:
-        print("your die mahn, you have it ")
-st.success(predictive)
+        dp="your die mahn, you have it "
+st.success(dp)
 
 
