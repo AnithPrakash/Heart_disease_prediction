@@ -14,37 +14,37 @@ with col2:
     sex=st.text_input("Enter your Sex (1 or 0)")
 
 with col3:
-    cp=st.text_input("Enter your CP ( level=1/2/3/0 )")
+    cp=st.text_input("Enter your Chest Pain types ( level=1/2/3/0 ) ")
 
 with col1:
-    tresrbps=st.text_input("Enter your TresrBPS")
+    tresrbps=st.text_input("Enter your Resting Blood Pressure")
 
 with col2:
-    chol=st.text_input("Enter your chol")
+    chol=st.text_input("Enter your Serum Cholestoral in mg/dl")
 
 with col3:
-    fbs=st.text_input("enter your FBS (1 or 0)")
+    fbs=st.text_input("enter your Fasting Blood Sugar > 120 mg/dl")
 
 with col1:
-    restecg=st.text_input("enter your ECG (1 or 0)")
+    restecg=st.text_input("enter your Resting Electrocardiographic results")
 
 with col2:
-    thalach=st.text_input("Enter your Thalach")
+    thalach=st.text_input("Enter your Maximum Heart Rate achieved")
 
 with col3:
-    exang=st.text_input("Enter your exang(1 or 0)")
+    exang=st.text_input("Enter your Exercise Induced Angina")
 
 with col1:
-    oldpeak=st.text_input("Enter your oldpeak(float value)")
+    oldpeak=st.text_input("ST depression induced by exercise)")
 
 with col2:
-    slope=st.text_input("Enter your slope ( 0 / 1 / 2)")
+    slope=st.text_input("Enter your Slope of the peak exercise ST segment ( 0 / 1 / 2)")
 
 with col3:
-    cs=st.text_input("Enter your CA (0 / 1 / 2)")
+    cs=st.text_input("Enter your Major vessels colored by flourosopy (0 / 1 / 2)")
 
 with col2:
-    thal=st.text_input("Enter your Thal (0 / 1 / 2)")
+    thal=st.text_input("Enter your Thal (thal: 0 = normal; 1 = fixed defect; 2 = reversable defect)")
 
 heart_diagnosis=''
 if st.button('Result'):
@@ -53,7 +53,7 @@ if st.button('Result'):
     if predictive[0]==0:
         heart_diagnosis="your safe you dont have hearts disease"
     else:
-        heart_diagnosis="your die mahn, you have it "
+        heart_diagnosis="your done mahn, you have it "
 st.success(heart_diagnosis)
 
 
