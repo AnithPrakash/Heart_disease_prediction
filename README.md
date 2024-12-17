@@ -4,5 +4,5 @@ To run here is the link for that : https://heartdiseaseprediction-c.streamlit.ap
 
 # Model information 
 
-This model is powered by Logistic regression Trained by Heart_disease dataset and accuarcy score has around 80 %.
+This model is powered by Logistic regression Trained by Heart_disease dataset and accuarcy score has around 80%.
 
